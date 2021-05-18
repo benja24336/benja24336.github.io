@@ -1,0 +1,64 @@
+div {
+  border: 5px solid black;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 12px;
+}
+
+body {
+  background-image: url(https://i.ytimg.com/vi/IO6D6khvYXE/maxresdefault.jpg);
+  background-position: center;
+  background-repeat: repeat;
+}
+
+#content {
+  border: 3px solid black;
+  margin: auto;
+  width: 50%;
+  height: 50%;
+  border-radius: 15px;
+}
+#otherPages1 {
+  background-color: lightgreen;
+}
+.linksBox,
+.textBox,
+#headerBox {
+  background-color: lightblue;
+}
+
+.linksBox,
+  {
+  background-color: lightblue;
+}
+
+#headerBox .linksBox,
+.textBox {
+  border-radius: 12px;
+}
+
+.textBox {
+  overflow: auto;
+}
+
+.textBox img {
+  width: 100%;
+  float: left;
+  clear: left;
+}
+.website {
+  
+}
+a:hover {
+  color: grey
+}
+
+a:visited {
+  color: blue
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
